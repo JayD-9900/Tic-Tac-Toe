@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tic Tac Toe</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="container">
+  <div id="start">
+    <h1>Welcome to Tic Tac Toe</h1>
+    <button id="startBtn">Start Game</button>
+  </div>
+  
+  <div id="game" style="display: none;">
+    <h1>Tic Tac Toe</h1>
+    <div id="mode-selection" style="display: none;">
+      <h2>Select Mode:</h2>
+      <button id="onePlayerBtn">1 Player</button>
+      <button id="twoPlayerBtn">2 Player</button>
+    </div>
+    <div id="player-selection" style="display: none;">
+      <h2>Select Player:</h2>
+      <button id="player1Btn" style="display: none;">Player 1 (X)</button>
+      <button id="player2Btn" style="display: none;">Player 2 (O)</button>
+    </div>
+
+    <div id="board" style="display: none;">
+      <div class="row">
+        <div class="cell" id="cell-0"></div>
+        <div class="cell" id="cell-1"></div>
+        <div class="cell" id="cell-2"></div>
+      </div>
+      <div class="row">
+        <div class="cell" id="cell-3"></div>
+        <div class="cell" id="cell-4"></div>
+        <div class="cell" id="cell-5"></div>
+      </div>
+      <div class="row">
+        <div class="cell" id="cell-6"></div>
+        <div class="cell" id="cell-7"></div>
+        <div class="cell" id="cell-8"></div>
+      </div>
+    </div>
+
+    <div id="message"></div>
+
+    <button id="restartBtn" style="display: none;">Restart Game</button>
+    <button id="backBtn" style="display: none;">Back</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+<div id="mode-selection" style="display: none;">
+  <h2>Select Game Mode</h2>
+  <button id="onePlayerBtn">1 Player</button>
+  <button id="twoPlayerBtn">2 Players</button>
+  <button id="backToStartBtn">Back</button>
+</div>
