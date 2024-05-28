@@ -1,0 +1,49 @@
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+#start, #game {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #000;
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+#message {
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+
+button {
+  margin-top: 10px;
+  font-size: 1em;
+  padding: 10px 20px;
+  background-color: #4CAF50; /* Green */
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049; /* Darker Green */
+}
+
+#restartBtn, #backBtn {
+  display: none;
+}
